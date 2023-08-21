@@ -39,14 +39,38 @@
 
 
 
-.App {
-  text-align: center;
-  padding: 20px;
-  font-family: Arial, sans-serif;
+
+
+.image{
+  width: 80px;
+  
+}
+body{
+  background-image: url("./assets/bg2.jpg");
+ 
+}
+button{
+  width: 150px;
+  height: 90px;
+  background-color: rgb(167, 185, 185) !important;
+  border-radius: 2.25rem!important;
 }
 
-button {
-  margin: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
+.score{
+  background-color: rgba(126, 136, 155, 0.8)!important; 
+ 
+  height: 50vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  
+  color: rgb(243, 245, 247);
+}
+.score-text {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  margin-top: 10px; 
+  display: flex;
+  justify-content: space-between; 
 }
